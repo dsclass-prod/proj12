@@ -35,6 +35,16 @@
             ],
             "source": "clean.R",
             "target": "script4971.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df3",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "csvfile6034.csv"
         }
     ],
     "nodes": [
@@ -64,6 +74,6 @@
             "name": "csvfile6034.csv"
         }
     ],
-    "updated_at": "2018-10-03 12:47:54",
+    "updated_at": "2018-10-03 12:48:02",
     "url": "https://github.com/dsclass-prod/proj12"
 }
