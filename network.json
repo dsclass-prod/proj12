@@ -1,0 +1,55 @@
+{
+    "collaborators": [
+        "yatish",
+        "yatish2"
+    ],
+    "created_at": "2018-09-25 14:17:25",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "yatish",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "not started"
+        },
+        {
+            "name": "text7276.txt"
+        },
+        {
+            "name": "plot6809.png"
+        },
+        {
+            "desc": "",
+            "name": "script4971.R"
+        }
+    ],
+    "updated_at": "2018-10-03 12:44:48",
+    "url": "https://github.com/dsclass-prod/proj12"
+}
