@@ -1,0 +1,44 @@
+{
+    "collaborators": [
+        "yatish"
+    ],
+    "created_at": "2018-09-25 14:17:25",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "yatish",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "validating"
+        }
+    ],
+    "updated_at": "2018-10-03 04:45:24",
+    "url": "https://github.com/dsclass-prod/proj12"
+}
