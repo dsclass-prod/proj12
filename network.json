@@ -36,9 +36,9 @@
             "assigned_to": "yatish",
             "desc": "",
             "name": "clean.R",
-            "task_status": "validating"
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-03 04:45:24",
+    "updated_at": "2018-10-03 04:45:28",
     "url": "https://github.com/dsclass-prod/proj12"
 }
